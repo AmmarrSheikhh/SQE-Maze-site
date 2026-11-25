@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pixel Quest</title>
+<!-- MAZE SNIPPET GOES HERE -->
+<style>
+  :root{ --bg:#0f1020; --panel:#1a1b33; --ink:#f2f2f7; --quiet:#a3a6c2; --accent:#7c5cff; }
+  *{box-sizing:border-box;}
+  body{margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 -apple-system,"Segoe UI",Roboto,sans-serif;}
+  header{display:flex; justify-content:space-between; align-items:center; padding:20px 24px; max-width:1100px; margin:0 auto;}
+  .logo{font-weight:800; letter-spacing:.02em;}
+  nav a{color:var(--quiet); text-decoration:none; margin-left:20px; font-size:15px;}
+  .hero{max-width:1100px; margin:0 auto; padding:72px 24px 56px;}
+  h1{font-size:clamp(40px,8vw,84px); line-height:1.02; margin:0 0 18px;}
+  .hero p{color:var(--quiet); font-size:19px; max-width:520px; margin:0 0 28px;}
+  .btn{display:inline-block; background:var(--accent); color:#fff; padding:13px 22px; border-radius:10px; text-decoration:none; font-weight:600;}
+  .grid{max-width:1100px; margin:0 auto; padding:0 24px 80px; display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px;}
+  .card{background:var(--panel); border-radius:14px; padding:22px;}
+  .card h3{margin:0 0 6px; font-size:18px;}
+  .card p{margin:0; color:var(--quiet); font-size:15px;}
+  footer{text-align:center; color:var(--quiet); font-size:13px; padding:24px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">🎮 PIXEL QUEST</div>
+  <nav><a href="#">Play</a><a href="#">Shop</a><a href="#">Support</a></nav>
+</header>
+<section class="hero">
+  <h1>Your next<br>adventure starts here.</h1>
+  <p>Pick a hero, start a quest, and explore a pixel world full of secrets.</p>
+  <a class="btn" href="#">Start a new game</a>
+</section>
+<section class="grid">
+  <div class="card"><h3>Choose your hero</h3><p>Pick from a cast of characters, each with their own style.</p></div>
+  <div class="card"><h3>Daily quests</h3><p>Fresh challenges every day to earn rewards.</p></div>
+  <div class="card"><h3>Shop</h3><p>Weapons, armor and potions for the road ahead.</p></div>
+</section>
+<footer>© 2026 Pixel Quest</footer>
+</body>
+</html>
